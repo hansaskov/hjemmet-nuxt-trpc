@@ -19,6 +19,12 @@ pnpm install --shamefully-hoist
 
 ## Development Server
 
+initialize db using prisma
+```bash
+npx prisma db push
+```
+
+
 Start the development server on http://localhost:3000
 
 ```bash
