@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.5",
+    "nuxt": "npm:nuxt3@latest",
+    "prisma": "^4.4.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "trpc-nuxt": "^0.3.0",
+    "zod": "^3.19.1"
+  }
+}
