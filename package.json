@@ -16,5 +16,8 @@
     "@prisma/client": "^4.4.0",
     "trpc-nuxt": "^0.3.0",
     "zod": "^3.19.1"
+  },
+  "prisma": {
+    "schema": "server/database/schema.prisma"
   }
 }
