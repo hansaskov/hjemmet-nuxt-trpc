@@ -11,15 +11,17 @@ datasource db {
 }
 
 model User {
-  id         Int             @id @default(autoincrement())
-  email      String          @unique
-  firstName  String
-  middleName String?
-  lastName   String
-  imageUrl   String?
-  wishList   Wish[]
-  events     UsersOnEvents[]
-  sesstion   Session[]
+  id          Int             @id @default(autoincrement())
+  email       String          @unique
+  firstName   String
+  middleName  String?
+  lastName    String
+  birthDate   DateTime
+  description String?
+  imageUrl    String?
+  wishList    Wish[]
+  events      UsersOnEvents[]
+  sesstion    Session[]
 
   @@unique([firstName, lastName])
 }

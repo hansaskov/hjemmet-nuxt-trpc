@@ -1,7 +1,5 @@
 <script setup lang="ts">
 
-import { exit } from 'process';
-import { WishPersonalData } from '~~/types/IWish';
 import { nameToJson } from '~~/utils/format';
 
 

@@ -35,7 +35,7 @@ const image_url = "https://scontent-cph2-1.xx.fbcdn.net/v/t1.6435-9/53472633_227
                 <div class="flex flex-col lg:flex-row lg:items-center lg:mx-8 ">
                 <!--<NuxtLink to="/wishlists"   class="px-3 py-2 mx-3 mt-2 transition-colors hover:bg-background-light duration-300 transform rounded-md lg:mt-0  " :class="[isOpen ? ' hover:bg-secondary-dark dark:hover:bg-background-light dark:hover:text-black '  : '']" >Ønskelister</NuxtLink>
                     <NuxtLink to="/events"      class="px-3 py-2 mx-3 mt-2 transition-colors hover:bg-background-light duration-300 transform rounded-md lg:mt-0  " :class="[isOpen ? ' hover:bg-secondary-dark dark:hover:bg-background-light dark:hover:text-black  '  : '']">Begivenheder</NuxtLink>--> 
-                    <NuxtLink to="/users/hans askov" class="px-3 py-2 mx-3 mt-2 transition-colors hover:bg-background-light duration-300 transform rounded-md lg:mt-0    flex focus:outline-none " aria-label="toggle profile dropdown" :class="[isOpen ? ' hover:bg-secondary-dark dark:hover:bg-background-light dark:hover:text-black '  : '']">
+                    <NuxtLink to="/users/Hans Askov" class="px-3 py-2 mx-3 mt-2 transition-colors hover:bg-background-light duration-300 transform rounded-md lg:mt-0    flex focus:outline-none " aria-label="toggle profile dropdown" :class="[isOpen ? ' hover:bg-secondary-dark dark:hover:bg-background-light dark:hover:text-black '  : '']">
                         <h3 class=" lg:hidden">{{username}}</h3>
                         <div class="mx-3 w-8 h-8 overflow-hidden border-2 border-primary-dark rounded-full">
                             <img :src= image_url class="object-cover w-full h-full" alt="avatar">
