@@ -1,8 +1,8 @@
 <script setup lang="ts">
+
 const isNavBarOpen = useIsNavOpen()
 
 </script>
-
 
 <template>
   <div>

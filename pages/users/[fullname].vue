@@ -14,11 +14,7 @@ if (!user) {
     navigateTo('/');
 }
 
-
-
-
 const wishes = await client.query('post.getUserWishes', { userId: user!.id })
-
 
 </script>
 

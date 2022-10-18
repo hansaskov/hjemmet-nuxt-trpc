@@ -5,7 +5,6 @@ export type fullname = {
     lastName: string
 }
 
-
 export function nameToJson(name: string) {
 
     const stringArr = name.trim().split(" ")
