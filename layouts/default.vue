@@ -11,6 +11,7 @@ const isNavBarOpen = useIsNavOpen()
     </div>
     <div v-on:click="isNavBarOpen = false">
       <slot />
+      <Footer />
     </div>
   </div>
 </template>

@@ -12,7 +12,7 @@ const props = defineProps<{
 
 <template>
     <NuxtLink to="#"
-        class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group bg-blue-100 dark:bg-neutral-700 hover:bg-blue-600 rounded-xl">
+        class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group bg-orange-100 dark:bg-neutral-700 hover:bg-blue-600 rounded-xl">
         <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
             :src= props.imgurl >
 
