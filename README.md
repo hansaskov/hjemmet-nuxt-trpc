@@ -19,11 +19,15 @@ pnpm install --shamefully-hoist
 
 ## Development Server
 
+Start postgres docker image
+```bash
+docker compose up
+```
+
 initialize db using prisma
 ```bash
 npx prisma db push
 ```
-
 
 Start the development server on http://localhost:3000
 
