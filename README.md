@@ -33,6 +33,7 @@ docker compose up
 initialize db using prisma
 ```bash
 npx prisma db push
+npx prisma db seed
 ```
 
 Start the development server on http://localhost:3000
