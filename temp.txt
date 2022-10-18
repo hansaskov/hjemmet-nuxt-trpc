@@ -1,0 +1,5 @@
+           <!-- <WishCard name="M- wave skaterhjelm, blank hvid" description="Cykelhjelm" img-url="https://ecykelhjelm.dk/4846-large_default/m-wave-skaterhjelm-blank-hvid-billigste.jpg"/>
+            <WishCard name="Nike Air Zoom Pegasus str 46" description="Løbesko" img-url="https://img01.ztat.net/article/spp-media-p1/d2631ea56db44fa4b39716f5b523dfe8/46e8dfb4da3e4925a08859b992f8c712.jpg?imwidth=762"/>
+            <WishCard name="Nike Revolution 6 M str 46" description="Løbesko" img-url="https://www.pricerunner.dk/product/640x640/3006174346/Nike-Revolution-6-M-Black-White.jpg"/>
+            <WishCard name="Cyperpunk 2077 Steam" description="Computerspil" img-url="https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/cKZ4tKNFj9C00giTzYtH8PF1.png"/>
+            <WishCard name="World of Warcraft Dragonflight Base edition" description="Computerspil" img-url="https://sm.ign.com/ign_fr/cover/w/world-of-w/world-of-warcraft-dragonflight_a85y.jpg"/>-->

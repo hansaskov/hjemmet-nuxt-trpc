@@ -19,7 +19,7 @@ model User {
   imageUrl   String?
   wishList   Wish[]
   events     UsersOnEvents[]
-  sesstion Session[]
+  sesstion   Session[]
 
   @@unique([firstName, lastName])
 }

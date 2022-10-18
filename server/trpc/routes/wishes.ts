@@ -5,21 +5,25 @@ import { PrismaClient } from '@prisma/client'
 import { prisma } from '..'
 
 export const wishes = trpc.router()
-  
+
   .query('getWishes', {
     async resolve(req) {
       return await prisma.user.findMany()
     },
   })
 
-  .query('getWish', {
+  .query('getUserWishes', {
 
     // Validate id as a whole number
     input: z.object({
-      id: z.number().int()
+      userId: z.number().int()
     }),
 
     async resolve(req) {
-      return await prisma.user.findUnique({where: {id: req.input.id}})
+      return await prisma.wish.findMany({
+        where: {
+          userId: req.input.userId
+        }
+      })
     },
   })
